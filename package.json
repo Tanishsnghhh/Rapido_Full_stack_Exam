@@ -1,0 +1,25 @@
+{
+  "name": "rapido_exam",
+  "version": "1.0.0",
+  "description": "Full stack project for exam",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tanishsnghhh/Rapido_Full_stack_Exam.git"
+  },
+  "author": "Tanish Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tanishsnghhh/Rapido_Full_stack_Exam/issues"
+  },
+  "homepage": "https://github.com/Tanishsnghhh/Rapido_Full_stack_Exam#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.21.2",
+    "mongoose": "^8.8.4"
+  }
+}
