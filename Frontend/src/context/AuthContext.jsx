@@ -8,7 +8,7 @@ export function AuthProvider({ children }) {
   const [user, setUser] = useState(mockUser);
   const navigate = useNavigate();
 
-  const login = (email, password) => {
+  const login = () => {
     setUser(mockUser);
     navigate('/');
   };

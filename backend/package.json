@@ -1,23 +1,17 @@
 {
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.21.2",
-    "graphql": "^16.9.0",
     "mongoose": "^8.8.4"
-  },
-  "name": "rapido_exam",
-  "version": "1.0.0",
-  "description": "Tanish this side",
-  "main": "index.js",
-  "type": "module",
-  "devDependencies": {
-    "nodemon": "^3.0.1"
-  },
-  "scripts": {
-    "start": "node index.js",
-    "dev": "nodemon index.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+  }
 }
